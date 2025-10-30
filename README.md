@@ -1,6 +1,6 @@
 # Acer-V14-Discord-Bot
 
-## Uzmanlık Seviyesinde Discord Sunucu Yönetim ve Koruma Platformu
+## Uzmanlık Seviyesinde Discord Sunucu Yönetim ve Koruma Botları
 
 Acer-V14-Discord-Bot, Discord sunucuları için geliştirilmiş kapsamlı moderasyon, koruma ve yönetim sistemidir. 6 özelleşmiş bot mimarisi üzerinden çalışan bu platform, sunucunuzun güvenliğini, organizasyonunu ve aktivitesini uzman seviyesinde özelliklerle yönetir.
 
@@ -103,7 +103,7 @@ Sunucunuzun vanity URL'si, dijital kimliğinizin kritik bir parçasıdır. Guard
 
 ## ⚙️ Kurulum ve Yapılandırma
 
-**Gereksinimler:** Node.js v16+, MongoDB veritabanı, minimum 4GB RAM, stable internet bağlantısı. Discord bot token'ları (6 bot için), MFA aktif Discord hesabı (Vanity URL guard için).
+**Gereksinimler:** Node.js v16+, MongoDB veritabanı, minimum 4GB RAM, stabil internet bağlantısı. Discord bot token'ları (6 bot için), MFA aktif Discord hesabı (Vanity URL guard için).
 
 **Kurulum:**
 1. Repository klonlama ve bağımlılıkları yükleme
