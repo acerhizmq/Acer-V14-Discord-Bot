@@ -1,8 +1,6 @@
 # Acer-V14-Discord-Bot
 
-## Uzmanlık Seviyesinde Discord Sunucu Yönetim ve Koruma Botları
-
-Acer-V14-Discord-Bot, Discord sunucuları için geliştirilmiş kapsamlı moderasyon, koruma ve yönetim sistemidir. 6 özelleşmiş bot mimarisi üzerinden çalışan bu platform, sunucunuzun güvenliğini, organizasyonunu ve aktivitesini uzman seviyesinde özelliklerle yönetir.
+Acer V14 Discord Bot, Discord sunucularınız için gelişmiş ve yüksek kapsamlı bir bottur.
 
 **Satın alım ve bizle irtibat için bize ulaşabilirsiniz:**
 - [GutsV Discord](https://discord.gg/s93rTvJg98)
@@ -13,106 +11,59 @@ Acer-V14-Discord-Bot, Discord sunucuları için geliştirilmiş kapsamlı modera
 
 ---
 
-## ⚙️ Sistem Mimarisi
-
-**Multi-Bot Architecture:** 6 özelleşmiş bot mimarisi ile çalışır. Management (Ana komut botu, ekonomi, oyun), Central (Sistem komutları, vanity URL koruma, chat guard), Punisher (Ceza otomasyonu), Closer (Guard event yakalama), Revert (Geri alma sistemi), Logger (Kapsamlı loglama). Her bot kendi uzmanlık alanında optimize edilmiş performans sunar.
-
----
-
 ## 🛡️ Koruma Sistemleri
 
-### Vanity URL Guard & Protection
+**Vanity URL Koruması** - Sunucu URL'nizi 7/24 izleyen, değişiklik tespit edildiğinde saniyeler içinde geri yükleyen sistem. MFA desteği, otomatik yeniden deneme ve anlık webhook bildirimleri ile URL'niz asla kaybolmaz.
 
-Sunucunuzun vanity URL'si, dijital kimliğinizin kritik bir parçasıdır. Guard Mode ile gerçek zamanlı izleme (Discord Gateway WebSocket üzerinden saniyeler içinde tespit), anında müdahale (otomatik geri yükleme, MFA token entegrasyonu, 5 kez otomatik yeniden deneme), MFA token yönetimi (otomatik ticket alma ve token üretme, güvenli saklama, 5 dakikalık yenileme döngüsü), rate limit yönetimi (proaktif kontrol ve otomatik bekleme), webhook bildirimleri (anlık durum bildirimi), TLS güvenli iletişim (Discord Canary API'ye doğrudan bağlantı).
+**Sunucu Koruması** - Yetkisiz sunucu, rol, kanal, emoji, sticker, bot değişikliklerini engelleyen ve otomatik geri yükleyen sistem. Ban/kick koruması ile yetkisiz ceza işlemlerini önler.
 
-### Guard Systems
-
-**Sunucu, Rol, Kanal, Emoji, Sticker, Bot, Ban/Kick Koruması** - Yetkisiz değişiklikleri engelleme, audit log entegrasyonu, otomatik yedekleme ve geri yükleme.
-
-**Chat Protection** - Küfür, reklam, capslock, spam ve invite link koruması. Özelleştirilebilir filtreler, otomatik mesaj silme ve kullanıcı uyarı sistemi.
+**Chat Koruması** - Küfür, reklam, spam, capslock ve davet linki filtreleme. Özelleştirilebilir filtreler ve otomatik mesaj silme sistemi.
 
 ---
 
-## ⚖️ Moderasyon Özellikleri
+## ⚖️ Moderasyon ve Yönetim
 
-**Ceza Sistemi** - Ban, Kick, Mute, Voice Mute, Jail, Timeout, Warn. Süre bazlı otomatik takip, ceza bitişi kontrolü, geçmiş ve istatistikler, ceza puanı sistemi, toplu işlemler.
+**Ceza Sistemi** - Ban, kick, mute, ses mute, jail, timeout ve uyarı sistemi. Süre bazlı otomatik takip, ceza geçmişi, istatistikler ve toplu işlem desteği.
 
-**Kayıt Sistemi** - Erkek/Kadın kayıt (özelleştirilebilir komutlar, yaş doğrulama), kayıtsız yönetimi (otomatik rol verme/alma, kanal erişim kontrolü), hoşgeldin sistemi (özelleştirilebilir mesajlar, embed formatı).
+**Kayıt Sistemi** - Erkek/kadın kayıt, yaş doğrulama, otomatik rol verme, kayıtsız yönetimi ve özelleştirilebilir hoşgeldin mesajları.
 
-**Tag Sistemi ve GutsV API Entegrasyonu** - GutsV API üzerinden otomatik tag tarama (sunucu tagı, bio, pronouns, username, display name, presence kontrolü), otomatik rol verme/alma, nickname güncelleme, tag istatistikleri. Founding roles onay mekanizması, button-based approval, özelleştirilebilir ayarlar (tag modu, private mod, banned tag yönetimi).
-
----
-
-## 💰 Ekonomi ve Oyun Sistemleri
-
-**Ekonomi Sistemi** - Coin (Jeton) ve Gold (Altın) para birimleri. Mesaj, ses, davet, kayıt, tag verme, auth yapma ile para kazanma (ayarlanabilir miktarlar), günlük ödül sistemi, kullanıcılar arası transfer (geçmiş takibi, doğrulama, limit kontrolü).
-
-**Oyun Sistemi** - İlk Yazan, Matematik, Kasa Bul, Tahmin, Memleket, Ülke Başkent, Blackjack, Coinflip, Slot, Rock Paper Scissors. 25 dakikada bir otomatik rastgele oyun, aktif sohbet kontrolü, canvas tabanlı profesyonel görseller.
-
-**Mağaza Sistemi** - Item, Role, Badge satın alma. Özelleştirilebilir ürünler, stok yönetimi, kategorilendirme.
+**Tag Sistemi** - GutsV API entegrasyonu ile otomatik tag tarama, sunucu tagı kontrolü, bio, pronouns ve kullanıcı adı kontrolü. Otomatik rol verme/alma ve nickname güncelleme. Founding roles onay mekanizması ile güvenli tag yönetimi.
 
 ---
 
-## 📊 İstatistik ve Yetkili Yönetim Sistemi
+## 💰 Ekonomi ve Eğlence
 
-**Kullanıcı İstatistikleri** - Mesaj (toplam, haftalık, günlük, kanal bazlı), Ses (toplam süre, haftalık, günlük, kanal bazlı), Kamera ve Stream (toplam, haftalık, günlük süreler).
+**Ekonomi Sistemi** - Coin ve Altın para birimleri. Mesaj yazma, ses kanalında kalma, davet getirme, kayıt yapma, tag verme ve auth yapma ile para kazanma. Günlük ödül sistemi ve kullanıcılar arası transfer.
 
-**Yetkili İstatistikleri (UpStaff)** - Görev Sistemi (oluşturma, atama, takip, coin ödülleri), Sorumluluk Sistemi (oluşturma, atama, tamamlama takibi), Auth ve Tag Sistemi (istatistikler, kalite skorlama, performans metrikleri), Rank Sistemi (coin bazlı yükseltme, otomatik rank rolü verme, section bazlı yönetim).
+**Oyun Sistemi** - İlk Yazan, Matematik, Kasa Bul, Tahmin, Memleket, Ülke Başkent, Blackjack, Coinflip, Slot ve Taş Kağıt Makas oyunları. 25 dakikada bir otomatik rastgele oyun başlatma ve profesyonel görseller.
 
-**Leaderboard Sistemleri** - Mesaj, Ses ve Tweet leaderboard'ları (top sıralamalar, haftalık/günlük listeler, kanal bazlı sıralamalar).
-
-**Profil ve Kart Sistemi** - Canvas tabanlı profil kartları, istatistik görselleştirme, özelleştirilebilir tema, badge ve rozet gösterimi, detaylı kullanıcı bilgileri.
+**Mağaza Sistemi** - Eşya, rol ve rozet satın alma. Özelleştirilebilir ürünler ve stok yönetimi.
 
 ---
 
-## 🚀 İleri Seviye Özellikler
+## 📊 İstatistik ve Yönetim
 
-**Özel Oda, Ticket, Toplantı, İtiraf, Giveaway, Tweet, Menü Sistemleri** - Özel oda oluşturma ve yönetimi, button-based ticket sistemi, toplantı başlatma ve katılımcı takibi, anonim itiraf kanalı, çekiliş yönetimi, Twitter benzeri mesajlaşma, özelleştirilebilir select menüler.
+**Kullanıcı İstatistikleri** - Mesaj, ses, kamera ve stream istatistikleri. Toplam, haftalık, günlük ve kanal bazlı detaylı takip.
 
----
+**Yetkili Yönetim Sistemi** - Görev ve sorumluluk sistemi, auth ve tag istatistikleri, kalite skorlama, performans metrikleri. Coin bazlı otomatik rank yükseltme ve section bazlı yönetim.
 
-## 🔒 Güvenlik ve Yedekleme
-
-**Otomatik Yedekleme** - Kanal yedekleme (metin, ses, kategori, permission overwrite), rol yedekleme (rol bilgileri, üye listesi, permission yedekleme), her saat otomatik yedekleme, seçici ve tarih bazlı geri yükleme.
-
-**Whitelist Sistemi** - Full yetki listesi, rol/kanal/emoji/URL yönetim yetkileri, anlık işlem limiti, limit aşımı tespiti ve otomatik cezalandırma.
+**Leaderboard ve Profil** - Mesaj, ses ve tweet sıralamaları. Canvas tabanlı profil kartları, istatistik görselleştirme ve rozet sistemi.
 
 ---
 
-## 📝 Loglama ve İzleme
+## 🚀 İleri Özellikler
 
-**Event Logging** - Kanal, rol, emoji, webhook, sticker, integration, event eventleri. Mesaj loglama (silme, düzenleme, snipe sistemi). Ses loglama (aktivite takibi, kanal değişiklikleri, spam kontrolü). Tüm event'ler detaylı şekilde kaydedilir.
+**Özel Sistemler** - Özel oda oluşturma ve yönetimi, ticket sistemi, toplantı yönetimi ve katılımcı takibi, anonim itiraf kanalı, çekiliş sistemi, Twitter benzeri mesajlaşma ve özelleştirilebilir menüler.
 
----
+**Güvenlik ve Yedekleme** - Otomatik kanal ve rol yedekleme, her saat otomatik yedekleme, seçici geri yükleme. Güvenli liste yönetimi ve anlık işlem limiti kontrolü.
 
-## ⌨️ Komut Sistemi
-
-**Moderation, Economy, Stat, Register, General, Owner Kategorileri** - Ban, kick, mute, jail, timeout, ceza kontrolü, bakiye görüntüleme, para transferi, istatistik görüntüleme, kayıt komutları, profil sistemleri, bot ayarları, özel komut oluşturma.
-
-**Özel Komut Sistemi** - Talent Perms (rol bazlı yetkilendirme), özel komut oluşturma, komut izinleri (özelleştirilebilir yetkilendirme, çoklu rol desteği).
+**Loglama** - Tüm sunucu olaylarının detaylı kaydı, mesaj silme/düzenleme takibi, ses aktivite logları ve snipe sistemi.
 
 ---
 
-## 🔧 Teknik Özellikler
+## ⚙️ Kurulum
 
-**MongoDB Entegrasyonu** - Kapsamlı şema yapısı, otomatik veri validasyonu, index ve query performans optimizasyonu.
-
-**API Entegrasyonları** - GutsV API (kullanıcı profil bilgisi, tag kontrol, bio ve pronouns, real-time synchronization), Discord API (Gateway WebSocket, REST API, Audit Log, Voice API).
-
----
-
-## ⚙️ Kurulum ve Yapılandırma
-
-**Gereksinimler:** Node.js v16+, MongoDB veritabanı, minimum 4GB RAM, stabil internet bağlantısı. Discord bot token'ları (6 bot için), MFA aktif Discord hesabı (Vanity URL guard için).
-
-**Kurulum:**
-1. Repository klonlama ve bağımlılıkları yükleme
-2. MongoDB kurulumu ve bağlantı ayarları
-3. Yapılandırma dosyasında gerekli ayarları yapma
-4. Bot'ları başlatma
-
-**Yapılandırma:**
-Yapılandırma dosyasında bot token'ları, sunucu ID, MongoDB bağlantı string'i, MFA şifresi ve webhook URL'si gibi temel ayarları yapılandırmanız gerekmektedir. Örnek yapılandırma formatı:
+**Gereksinimler:** Node.js v16+, MongoDB, 4GB RAM, Discord bot token'ları ve MFA aktif hesap.
 
 ```javascript
 {
@@ -135,8 +86,8 @@ Yapılandırma dosyasında bot token'ları, sunucu ID, MongoDB bağlantı string
 
 ## 📞 Destek ve Lisans
 
-**Destek:** Issues, [GutsV](https://github.com/gutsv-project) veya [GutsV Discord](https://discord.gg/s93rTvJg98) üzerinden teknik destek alabilirsiniz. Detaylı hata logları ile birlikte sorunu bildirmeniz önerilir.
+**Destek:** [GutsV Discord](https://discord.gg/s93rTvJg98) veya [Telegram](https://t.me/projectgutsv) üzerinden ulaşabilirsiniz.
 
-**Lisans:** MIT License
+**Lisans:** MIT License - Copyright (c) 2025 Acer
 
 ---
