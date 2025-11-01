@@ -27,8 +27,7 @@ Acer V14 Discord Bot, Discord sunucularınız için gelişmiş ve yüksek kapsam
 
 **Kayıt Sistemi** - Erkek/kadın kayıt, yaş doğrulama, otomatik rol verme, kayıtsız yönetimi ve özelleştirilebilir hoşgeldin mesajları.
 
-**Tag Sistemi** - GutsV API entegrasyonu ile otomatik tag tarama, sunucu tagı kontrolü, bio, pronouns ve kullanıcı adı kontrolü. Otomatik rol verme/alma ve nickname güncelleme. Founding roles onay mekanizması ile güvenli tag yönetimi.
-
+**Tag Sistemi** - GutsV API entegrasyonu ile otomatik tag tarama, sunucu tagı kontrolü, bio, pronouns ve kullanıcı adı kontrolü. Otomatik rol verme/alma ve nickname güncelleme.
 ---
 
 ## 💰 Ekonomi ve Eğlence
@@ -36,8 +35,6 @@ Acer V14 Discord Bot, Discord sunucularınız için gelişmiş ve yüksek kapsam
 **Ekonomi Sistemi** - Coin ve Altın para birimleri. Mesaj yazma, ses kanalında kalma, davet getirme, kayıt yapma, tag verme ve auth yapma ile para kazanma. Günlük ödül sistemi ve kullanıcılar arası transfer.
 
 **Oyun Sistemi** - İlk Yazan, Matematik, Kasa Bul, Tahmin, Memleket, Ülke Başkent, Blackjack, Coinflip, Slot ve Taş Kağıt Makas oyunları. 25 dakikada bir otomatik rastgele oyun başlatma ve profesyonel görseller.
-
-**Mağaza Sistemi** - Eşya, rol ve rozet satın alma. Özelleştirilebilir ürünler ve stok yönetimi.
 
 ---
 
